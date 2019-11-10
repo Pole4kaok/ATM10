@@ -1,9 +1,10 @@
-package pageobject.page;
+package pageobject.page.calendarPages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import pageobject.page.AbstractPage;
 
 public class ResourceViewPage extends AbstractPage {
     protected static final By DRAGGEDELEMENT_LOCATOR = By.xpath("(//div[contains(@class,\"gv-block\")][.=\"Mein Session 2\"])[1]");

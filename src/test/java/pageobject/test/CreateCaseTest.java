@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageobject.page.*;
+import pageobject.page.casePages.*;
 import service.CaseCreator;
 import service.PersonCreator;
 import service.UserCreator;

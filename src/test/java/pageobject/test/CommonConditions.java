@@ -25,7 +25,7 @@ import java.util.List;
 @Listeners({TestListener.class})
 public class CommonConditions {
 
-    protected WebDriver driver;
+    public WebDriver driver;
     @BeforeMethod(alwaysRun = true)
     public void browserSetup(){
         DriverSingleton creator = new ChromeCreator();

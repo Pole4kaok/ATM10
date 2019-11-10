@@ -9,17 +9,17 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.List;
 
 public class MainPage extends AbstractPage {
-    protected static final By CASEMENU_LOCATOR = By.id("menuItem-10000-0-main");
+    public static final By CASEMENU_LOCATOR = By.id("menuItem-10000-0-main");
     protected static final By CALENDARMENU_LOCATOR = By.id("menuItem-10002-0-main");
     protected static final By RESOURCEVIEW_LOCATOR = By.xpath("//*[@id=\"menuItem-110009-0-sub\"]");
     protected static final By CREATECASE_LOCATOR = By.xpath("//*[@id=\"menuItem-10047-0-sub\"]");
     protected static final By CALENDAR_LOCATOR = By.id("menuItem-110004-0-sub");
-    protected static final By CASE_SEARCH_LOCATOR = By.id("menuItem-10053-0-sub");
+    public static final By CASE_SEARCH_LOCATOR = By.id("menuItem-10053-0-sub");
     private static final By FIELD_LOCATOR = By.id("select2-chosen-1");
     private static final By TYPEAHEAD_LOCATOR = By.id("s2id_autogen1_search");
-    protected static final By INVISIBLE_LOCATOR = By.className("select2-searching");
-    protected static final By CLASSDROPDOWN_LOCATOR = By.xpath("//*[@id=\"select2-results-1\"]");
-    protected static final By SAVEBTN_LOCATOR = By.name("save");
+    public static final By INVISIBLE_LOCATOR = By.className("select2-searching");
+    public static final By CLASSDROPDOWN_LOCATOR = By.xpath("//*[@id=\"select2-results-1\"]");
+    public static final By SAVEBTN_LOCATOR = By.name("save");
     public MainPage (WebDriver driver){super(driver);}
 
     public MainPage openCreateCase(){

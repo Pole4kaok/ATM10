@@ -1,12 +1,10 @@
-package pageobject.page;
+package pageobject.page.calendarPages;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.DeviceRotation;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-
-import javax.swing.*;
+import pageobject.page.AbstractPage;
 
 public class CalendarPage extends AbstractPage {
     protected static final By CALENDARSLOT_LOCATOR = By.xpath("//*[@id=\"calendar\"]/div/div/div/div[3]/div/table/tbody/tr[7]/td/div");

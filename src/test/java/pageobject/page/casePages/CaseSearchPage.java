@@ -1,10 +1,12 @@
-package pageobject.page;
+package pageobject.page.casePages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import pageobject.page.AbstractPage;
+import pageobject.page.MainPage;
 
-public class CaseSearchPage extends AbstractPage{
+public class CaseSearchPage extends AbstractPage {
     protected static final By CASENUMBER_FIELD_LOCATOR = By.xpath("//*[@id=\"caseSection\"]/table/tbody/tr[1]/td[2]/input");
     protected static final By SEARCHBTN_LOCATOR = By.xpath("(//input[@value='Search'])[2]");
     protected static final By SEARCHRESULT_LOCATOR = By.xpath("//*[@id=\"caseSearchResultsTable\"]/table/tbody/tr/td[1]");

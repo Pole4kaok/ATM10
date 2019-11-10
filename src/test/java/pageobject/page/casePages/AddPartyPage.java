@@ -1,11 +1,10 @@
-package pageobject.page;
+package pageobject.page.casePages;
 
 import model.PersonModel;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
-import static pageobject.page.MainPage.SAVEBTN_LOCATOR;
+import pageobject.page.AbstractPage;
 
 public class AddPartyPage extends AbstractPage {
     protected static final By PARTY_MENU_LOCATOR = By.id("menuItem-10045-1-main");

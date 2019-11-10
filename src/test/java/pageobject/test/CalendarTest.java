@@ -3,10 +3,10 @@ package pageobject.test;
 import model.UserModel;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pageobject.page.CalendarPage;
+import pageobject.page.calendarPages.CalendarPage;
 import pageobject.page.LoginPage;
 import pageobject.page.MainPage;
-import pageobject.page.ResourceViewPage;
+import pageobject.page.calendarPages.ResourceViewPage;
 import service.UserCreator;
 
 public class CalendarTest extends CommonConditions {

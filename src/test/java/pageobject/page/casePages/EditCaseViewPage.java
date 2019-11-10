@@ -1,11 +1,10 @@
-package pageobject.page;
+package pageobject.page.casePages;
 
 import model.CaseModel;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
-import static pageobject.page.MainPage.SAVEBTN_LOCATOR;
+import pageobject.page.AbstractPage;
 
 public class EditCaseViewPage extends AbstractPage {
     protected static final By CASEVIEW_LOCATOR = By.id("menuItem-10044-1-main");

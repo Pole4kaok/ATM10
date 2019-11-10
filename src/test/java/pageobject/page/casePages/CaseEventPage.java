@@ -1,10 +1,11 @@
-package pageobject.page;
+package pageobject.page.casePages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import pageobject.page.AbstractPage;
 
 import java.util.List;
 
